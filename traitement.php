@@ -2,7 +2,6 @@
 
 require 'vendor/autoload.php';
 use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 $nom = $_POST['nom'];
 $prenom = $_POST['prenom'];
